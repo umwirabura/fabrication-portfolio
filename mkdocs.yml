@@ -1,10 +1,10 @@
 site_name: Making Things - A Fabrication Portfolio
 site_description: Digital Fabrication and IoT Prototyping Journey by Kirenga Olivier
 site_author: Kirenga Olivier
-site_url: https://your-username.github.io/fabrication-portfolio/
+site_url: https://umwirabura.github.io/fabrication-portfolio/
 
 repo_name: fabrication-portfolio
-repo_url: https://github.com/your-username/fabrication-portfolio
+repo_url: https://github.com/umwirabura/fabrication-portfolio
 edit_uri: ""
 
 copyright: Copyright &copy; 2025 Kirenga Olivier | University of Rwanda - ACEIoT
@@ -111,5 +111,5 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username
+      link: https://github.com/umwirabura
   generator: false
