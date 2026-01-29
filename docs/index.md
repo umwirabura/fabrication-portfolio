@@ -1,4 +1,4 @@
-<div style="background: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%); color: white; padding: 4rem 2rem; margin: -24px -24px 2rem -24px; text-align: center; border-radius: 0 0 1rem 1rem;">
+<div style="background: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%); color: white; width: 100%; padding: 4rem 2rem; margin: -24px -24px 2rem -24px; text-align: center; border-radius: 0 0 1rem 1rem;">
     <h1 style="font-size: 3rem; font-weight: 700; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Making Things</h1>
     <p style="font-size: 1.5rem; font-weight: 300; margin-bottom: 2rem;">Documenting my journey through digital fabrication and IoT prototyping</p>
     
