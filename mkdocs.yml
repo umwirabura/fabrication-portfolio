@@ -1,0 +1,115 @@
+site_name: Making Things - A Fabrication Portfolio
+site_description: Digital Fabrication and IoT Prototyping Journey by Kirenga Olivier
+site_author: Kirenga Olivier
+site_url: https://your-username.github.io/fabrication-portfolio/
+
+repo_name: fabrication-portfolio
+repo_url: https://github.com/your-username/fabrication-portfolio
+edit_uri: ""
+
+copyright: Copyright &copy; 2025 Kirenga Olivier | University of Rwanda - ACEIoT
+
+theme:
+  name: material
+  logo: images/logos/aceiot-logo.png
+  favicon: images/logos/ur-logo.png
+  
+  palette:
+    - scheme: default
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - announce.dismiss
+    - content.code.copy
+    - content.tooltips
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Foundation:
+      - foundation/index.md
+      - Documentation Setup: foundation/documentation-setup.md
+      - GitHub Pages Deployment: foundation/github-pages.md
+      - Version Control Best Practices: foundation/version-control.md
+  - Digital Design:
+      - design/index.md
+      - 3D Modeling with FreeCAD: design/freecad-bracket.md
+      - 2D Vector Graphics with Inkscape: design/inkscape-pressfit.md
+      - Design for Manufacturing: design/dfm-principles.md
+  - Electronics:
+      - electronics/index.md
+      - PCB Design Fundamentals: electronics/pcb-fundamentals.md
+      - ATtiny45 Microcontroller Board: electronics/attiny45-project.md
+      - Gerber Files & Fabrication: electronics/gerber-export.md
+  - Manufacturing:
+      - manufacturing/index.md
+      - Materials Selection: manufacturing/materials.md
+      - Fabrication Methods: manufacturing/methods.md
+      - Tools & Safety: manufacturing/tools-safety.md
+  - Reflection: reflection.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username
+  generator: false
